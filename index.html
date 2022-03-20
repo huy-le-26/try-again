@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./lstyles.css" />
+  </head>
+  <body>
+    <script src="https://www.gstatic.com/firebasejs/9.6.8/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.8/firebase-auth-compat.js"></script>
+    <script>
+      firebase.initializeApp({
+        apiKey: "AIzaSyARYvjB3Vsll-aRE8H6P7J_dSEm4aQws90",
+        authDomain: "mindx-btvn.firebaseapp.com",
+        projectId: "mindx-btvn",
+        storageBucket: "mindx-btvn.appspot.com",
+        messagingSenderId: "473752475705",
+        appId: "1:473752475705:web:82733dea6ae316ef5215e8",
+      });
+      const db = firebaseApp.firestore();
+      const auth = firebaseApp.auth();
+    </script>
+
+    <div id="app"></div>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
